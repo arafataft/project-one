@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* header section */
+.header {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(73, 140, 239, 0.79);
+    background-image: url(../images/banner/banner2.png);
+    background-size: cover;
+}
+
+.header-title {
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+}
+
+#right-text {
+    padding-right: 200px;
+}
+
+.right-text-title {
+    padding-left: 700px;
+    padding-top: 170px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    color: #151414;
+}
+
+.right-text-description {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    padding-left: 730px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #444343;
+}
+
+.btn1 {
+    padding: 15px 35px;
+    ;
+    font-size: 16px;
+    border: none;
+    margin: 5px;
+    background-color: rgb(245, 44, 44);
+    color: white;
+}
+
+/* header section end */
+
+/* main section */
+
+.my-failure {
+    margin: 130px 200px 130px 130px;
+}
+
+.my-failure-container {
+    display: flex;
+    background-color: rgba(249, 248, 247, 0.55);
+}
+
+.failure-left {
+    background-blend-mode: overlay;
+}
+
+.failure-right {
+    margin-top: 300px;
+    margin-left: 80px;
+    width: 400px;
+}
+
+.section-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    color: #151414;
+    margin-bottom: 20px;
+}
+
+.section-description {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #444343;
+    margin-bottom: 20px;
+}
+
+.failure-right .list {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #444343;
+    margin-bottom: 8px;
+}
+
+/* my plan section */
+.my-plan{
+    margin-left: 130px;
+}
+
+.plan-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.my-plan .section-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+    color: #151414;
+    margin-bottom: 50px;
+}
+/* my plan section end */
+
+/* Gradiant section */
