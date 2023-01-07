@@ -183,7 +183,7 @@
 
 .footer-container {
     display: flex;
-    padding-top: 90px;
+    padding-top: 75px;
     padding-left: 130px;
     padding-right: 300px;
 }
@@ -217,4 +217,13 @@ input {
     height: 40px;
     border-color: white;
     background-color: #050404;
+}
+.social{
+    display: flex;
+    list-style: none;
+}
+.social-logo{
+    padding: 15px;
+    width: 35px;
+    height: 35px;
 }
