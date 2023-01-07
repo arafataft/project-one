@@ -6,22 +6,25 @@
 
 /* nav bar */
 
-.nav-container{
+.nav-container {
     padding: 15px;
     background-color: rgba(172, 166, 166, 0.5);
+    padding-right: 180px;
 }
 
-.items{
-    justify-content:flex-end;
+.items {
+    justify-content: flex-end;
     display: flex;
     list-style: none;
 }
-.item{
+
+.item {
     margin-right: 10px;
     padding: 10px;
     font-size: 19px;
     text-decoration: none;
 }
+
 /* header section */
 .header {
     width: 100%;
@@ -122,18 +125,32 @@
     margin-left: 130px;
 }
 
+.my-plan .section-title {
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+    color: #151414;
+    margin-bottom: 50px;
+}
+
 .plan-container {
+    margin-right: 130px;
     display: flex;
     justify-content: space-around;
 }
 
-.my-plan .section-title {
-    font-style: normal;
-    font-weight: 700;
+.plan-title {
+    font-weight: 600;
     font-size: 25px;
     text-align: center;
     color: #151414;
-    margin-bottom: 50px;
+}
+
+.plan-title-description {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #737272;
 }
 
 /* my plan section end */
@@ -142,9 +159,8 @@
 .gradient {
     width: 80%;
     height: 300px;
-    /* background-color: rgba(240, 211, 119, 0.477); */
     margin: 130px 130px 130px 135px;
-    background-image: url(../images/gradient2.png), url(../images/watch.png), linear-gradient(rgba(241, 91, 34, 0), rgba(242, 228, 228, 0.5));
+    background-image: url(../images/gradient2.png), url(../images/watch.png), linear-gradient(rgba(249, 87, 17, 0), rgba(184, 91, 91, 0));
     background-blend-mode: overlay;
     border-radius: 8px;
 }
@@ -156,7 +172,7 @@
 }
 
 .gradient-container .section-title {
-    color: #050404;
+    color: black;
 }
 
 .btn2 {
@@ -172,6 +188,8 @@
     color: #F15B22;
     margin-top: 20px;
 }
+
+/* Gradient section end */
 
 /* footer */
 
@@ -205,7 +223,6 @@
 }
 
 .footer-description {
-    font-style: normal;
     font-weight: 20%;
     font-size: 14px;
     color: #FFFFFF;
@@ -218,11 +235,13 @@ input {
     border-color: white;
     background-color: #050404;
 }
-.social{
+
+.social {
     display: flex;
     list-style: none;
 }
-.social-logo{
+
+.social-logo {
     padding: 15px;
     width: 35px;
     height: 35px;
